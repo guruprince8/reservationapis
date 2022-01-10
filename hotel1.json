@@ -1,0 +1,170 @@
+{
+  "id":"1",
+  "name":"Mangowoods Serenity",
+  "rating":4.86,
+  "location":"Kanakamamidi, Telangana, India",
+  "description1":"Farm stay hosted by Pavan Kumar Reddy",
+  "description2":"10 guests · 2 bedrooms · 7 beds · 2 bathrooms",
+  "benefits":[
+    {
+      "type":"Entire home",
+      "description":"You’ll have the accommodation on the farm to yourself."
+    },
+    {
+      "type":"Enhanced Clean",
+      "description":"This host has committed to Airbnb's 5-step enhanced cleaning process. Show more"
+    },
+    {
+      "type":"Pool",
+      "description":"Guests often search for this popular amenity"
+    },
+    {
+      "type":"cancellation",
+      "description":"Free cancellation before 23 Jan"
+    }
+  ],
+  "rooms":[
+      {
+        "type":"Bedroom 1",
+        "bedsize":"1 queen bed"
+      },
+      {
+        "type":"Bedroom 2",
+        "bedsize":"1 queen bed"
+      },
+      {
+        "type":"Living room",
+        "bedsize":"5 Single Beds"
+      }
+    ],
+  "amenities":[
+      {
+        "category":"Bathroom",
+        "offerings":[
+          "Bath",
+          "Hot water"
+        ]
+      },
+      {
+        "category":"Bedroom and laundry",
+        "offerings":[
+          "Bed linen",
+          "Mosquito net"
+        ]
+      },
+      {
+        "category":"Entertainment",
+        "offerings":[
+          "lg sound system with Bluetooth and aux",
+          "Exercise equipment: free weights, yoga mat"
+        ]
+      },
+      {
+        "category":"Family",
+        "offerings":[
+          "Board games"
+        ]
+      },
+      {
+        "category":"Heating and cooling",
+        "offerings":[
+          "Air conditioning",
+          "Ceiling fan",
+          "Portable fans"
+        ]
+      },
+      {
+        "category":"Home safety",
+        "offerings":[
+         "First aid kit"
+        ]
+      },
+      {
+        "category":"Internet and office",
+        "offerings":[
+         "Wifi",
+         "Dedicated workspace"
+        ]
+      },
+      {
+        "category":"Kitchen and dining",
+        "offerings":[
+         "Kitchen",
+         "Refrigerator",
+         "Microwave",
+         "Cooking basics",
+         "Dishes and silverware",
+         "Freezer",
+         "Stove",
+         "Kettle",
+         "Rice cooker",
+         "Barbecue utensils"
+        ]
+      },
+      {
+        "category":"Location features",
+        "offerings":[
+         "Private entrance",
+         "Paid resort access"
+        ]
+      },
+      {
+        "category":"Outdoor",
+        "offerings":[
+         "Private patio or balcony",
+         "Private backyard - Fully fenced",
+         "BBQ grill",
+         "Bikes"
+        ]
+      },
+      {
+        "category":"Parking and facilities",
+        "offerings":[
+         "Free parking on premises",
+         "Free on-street parking",
+         "Private outdoor lap pool"
+        ]
+      },
+      {
+        "category":"Services",
+        "offerings":[
+         "Pets allowed",
+         "Smoking allowed",
+         "Long-term stays allowed"
+        ]
+      },
+      {
+        "category":"Not included",
+        "offerings":[
+         "Security cameras on property",
+         "TV",
+         "Hair dryer",
+         "Essentials",
+         "Smoke alarm",
+         "Carbon monoxide alarm",
+         "Shampoo",
+         "Heating"
+        ]
+      }
+  ],
+  "accessability":{
+    "features":[{
+      "category":"Guest entrance and parking",
+      "list":[
+        "Lit path to the guest entrance",
+        "The pavement or pathway to the guest entrance has lighting that makes nighttime navigation easier."
+      ]
+     }
+    ]
+  },
+  "price":{
+    "day":12214.5,
+    "night":12214.5,
+    "discount":{
+      "daily":0.0,
+      "weekly":8700.0
+    },
+    "service":11054,
+    "taxes":14094.0
+  }
+}

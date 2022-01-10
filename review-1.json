@@ -1,0 +1,71 @@
+{
+    "hotelid":"1",
+    "reviews":[
+        {
+            "reviewby":"Pinesh",
+            "reviewcomment":"I would suggest people to experience this beautiful place.. very well maintained and designed.. a good spot for family or group outing",
+            "reviewon":"2021-12-01"
+        },
+        {
+            "reviewby":"Abhinav",
+            "reviewcomment":"Pavan is a great host, he gave us a quick orientation of the house and how the house came to be, was very kind and polite.",
+            "reviewon":"2021-12-02"
+        },
+        {
+            "reviewby":"Praneeth",
+            "reviewcomment":"Pavan was a fantastic host. We had a great time staying at Mangowoods Serenity and eternity. The house was super clean and well maintained!",
+            "reviewon":"2021-12-03"
+        },
+        {
+            "reviewby":"Chaitanya",
+            "reviewcomment":"Great stay amidst nature and tasteful interiors.",
+            "reviewon":"2021-11-01"
+        },
+        {
+            "reviewby":"Chaitanya",
+            "reviewcomment":"Undoubtedly \"THE BEST\".\nYou name it - You have it here.\nStaff, Hosting, cleanliness, ambience, locality, property... everything on this property will  get you Paisa Vasool Feeling.\nAmazing host",
+            "reviewon":"2021-11-01"
+        },
+        {
+            "reviewby":"Suraj",
+            "reviewcomment":"WHAT A PLACE AND A WONDERFUL EXPERIENCE!!!! I was not sure about how the place would be as I visited it just based on reviews and pictures presented, I must say I was blown away by the pleasent vibe and peaceful surroundings of this place. The place is everything that reviews say and more. The interiors, amenities, outdoor pool everything was beyond expectations! All of my friends thoroughly enjoyed their stay, definitely worthy every penny!P.S: Sorry Pavan for low accuracy ratings the pictures shared just don't justify what exactly the place is offering. :p",
+            "reviewon":"2021-11-01"
+        },
+        {
+            "reviewby":"Kashyap",
+            "reviewcomment":"Pavan is an amazing host place is amazing its well maintained with a very cool taste of his If you want to stay with your closed ones and spend some valuable time yes this is the perfect place for a small gathering",
+            "reviewon":"2021-10-01"
+        },
+        {
+            "reviewby":"Shashank",
+            "reviewcomment":"Perfect weekend getaway place for a group of family or friends. Location of this property is at right place away from busy city traffic. The host Mr. Pavan Kumar was really helpful and ensured that we had a comfortable stay and was always a call away. Farm stay is super comfortable with amenities exactly as listed. A lot of efforts & detailing has gone into while developing this beautiful property kudos to Mr. Pavan. Overall a fabulous experience & worth every penny !",
+            "reviewon":"2021-10-02"
+        },
+        {
+            "reviewby":"Mahesh",
+            "reviewcomment":"Very beautiful place to stay with family surrounding with greenery and peaceful people in the farm are helpful early morning we wake up peacock sounds quick response from Pavan",
+            "reviewon":"2021-10-02"
+        },
+        {
+            "reviewby":"Dhikshit",
+            "reviewcomment":"Good ambience and great vibes. Cozy and nice place to relax far from busy city life. Planning to visit again soon!!",
+            "reviewon":"2021-10-02"
+        },
+        {
+            "reviewby":"Abhi",
+            "reviewcomment":"Worth it",
+            "reviewon":"2021-08-02"
+        },
+        {
+            "reviewby":"Mukesh",
+            "reviewcomment":"Place is really good with great vibes",
+            "reviewon":"2021-07-02"
+        }
+    ],
+    "cleanliness":5.0,
+    "communication":4.9,
+    "checkin":4.8,
+    "accuracy":4.6,
+    "location":4.9,
+    "value":4.9
+}

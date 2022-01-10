@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/guruprince8/reservationapis/issues"
   },
-  "homepage": "https://github.com/guruprince8/reservationapis#readme"
+  "homepage": "https://github.com/guruprince8/reservationapis#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
