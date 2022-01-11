@@ -43,7 +43,24 @@ const Tour = resverationsDB.model('Tour',tourSchema);
 /*** End -  Schema and Model */
 
 /** hotel api's */
-app.get('/api/v1/hotels',(req,res)=>{
+const hotelSchema = mongoose.Schema({
+    "id":String
+});
+
+const Hotel = resverationsDB.model('Hotel',hotelSchema);
+
+app.get('/api/v1/hotels', async (req,res)=>{
+    try {
+        const hotels = await Hotel.find();
+        //console.log(tours);
+        res.status(200).json({
+             "status":"success",
+             "length":hotels.length,
+             "data":hotels
+        });
+      } catch(err){
+         console.log(err);
+      }
 });
 
 app.post('/api/v1/hotels',(req,res)=>{
@@ -62,7 +79,7 @@ app.get('/api/v1/tours',async (req,res)=>{
    });
  } catch(err){
     console.log(err);
-   }
+    }
 
     
 });
@@ -99,11 +116,28 @@ app.post('/api/v1/tours',(req,res)=>{
 
 /** user  api's */
 
-app.get('/api/v1/users',(req,res)=>{
-
+const customerSchema = mongoose.Schema({
+    "id":String
 });
 
-app.post('/api/v1/users',(req,res)=>{
+const Customer = resverationsDB.model('Customer',customerSchema,'customers');
+
+app.get('/api/v1/users',async (req,res)=>{
+    try {
+        const customers = await Customer.find();
+        console.log(customers);
+        //console.log(tours);
+        res.status(200).json({
+             "status":"success",
+            //  "length":tours.length,
+             "data":customers
+        });
+      } catch(err){
+         console.log(err);
+        }
+});
+
+app.post('/api/v1/users',async (req,res)=>{
 
 });
 

@@ -1,0 +1,26 @@
+{
+    "id":1,
+    "firstname":"Bipin",
+    "lastname":"Rawat",
+    "dob":"1990-10-12",
+    "joined":"2021-01-11",
+    "status":"ACTIVE",
+    "phone":"+1 (243)-122-1234",
+    "email":"guru.prince@gmail.com",
+    "address":{
+        "primary":{
+            "address1":"DNO 1-11",
+            "address2":"Park Avenue",
+            "city":"Owings Mills",
+            "state":"Maryland",
+            "zipcode":21117
+        },
+        "work":{
+            "address1":"Building 12",
+            "address2":"Central Avenue",
+            "city":"Owings Mills",
+            "state":"Maryland",
+            "zipcode":21117
+        }
+    }
+}

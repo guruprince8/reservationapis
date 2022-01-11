@@ -1,0 +1,168 @@
+{
+    "id":"2",
+    "name":"Nature stay",
+    "rating":4.86,
+    "location":"Mysuru, Karnataka, India",
+    "description1":"Farm stay hosted by Somashekar",
+    "description2":"5 guests · 1 bedroom · 4 beds · 3 bathrooms",
+    "benefits":[
+      {
+        "type":"Entire home",
+        "description":"You’ll have the accommodation on the farm to yourself."
+      },
+      {
+        "type":"Enhanced Clean",
+        "description":"This host has committed to Airbnb's 5-step enhanced cleaning process. Show more"
+      },
+      {
+        "type":"Kitchen",
+        "description":"Guests often search for this popular amenity"
+      },
+      {
+        "type":"Great communication",
+        "description":"100% of recent guests rated Somashekar 5-star in communication"
+      }
+    ],
+    "rooms":[
+        {
+          "type":"Bedroom 1",
+          "bedsize":"1 double bed"
+        },
+        {
+          "type":"Bedroom 2",
+          "bedsize":"3 single beds"
+        },
+        {
+          "type":"Living room",
+          "bedsize":"5 Single Beds"
+        }
+      ],
+    "amenities":[
+        {
+            "category":"Scenic views",
+            "offerings":[
+                "Garden view"
+            ]
+        },
+        {
+          "category":"Bathroom",
+          "offerings":[
+            "Cleaning products",
+            "any good brand shampoo",
+            "Hot water"
+          ]
+        },
+        {
+          "category":"Bedroom and laundry",
+          "offerings":[
+            "Essentials",
+            "Room-darkening shades"
+          ]
+        },
+        {
+          "category":"Entertainment",
+          "offerings":[
+            "Suitable for events"
+          ]
+        },
+        {
+          "category":"Heating and cooling",
+          "offerings":[
+            "Portable fans"
+          ]
+        },
+        {
+          "category":"Kitchen and dining",
+          "offerings":[
+           "Kitchen",
+           "Cooking basics",
+           "Dishes and silverware",
+           "Barbecue utensils",
+           "Dining table"
+          ]
+        },
+        {
+          "category":"Location features",
+          "offerings":[
+           "Private entrance"
+          ]
+        },
+        {
+          "category":"Outdoor",
+          "offerings":[
+           "Private patio or balcony",
+           "Private backyard - Fully fenced",
+           "Outdoor furniture",
+           "Outdoor dining area",
+           "BBQ grill: charcoal, wood-burning"
+          ]
+        },
+        {
+          "category":"Parking and facilities",
+          "offerings":[
+           "Free parking on premises",
+           "Free on-street parking",
+           "Single level home"
+          ]
+        },
+        {
+          "category":"Services",
+          "offerings":[
+           "Luggage drop-off allowed",
+           "Smoking allowed",
+           "Long-term stays allowed",
+           "Host greets you"
+          ]
+        },
+        {
+          "category":"Not included",
+          "offerings":[
+           "Security cameras on property",
+           "TV",
+           "Hair dryer",
+           "Essentials",
+           "Smoke alarm",
+           "Carbon monoxide alarm",
+           "Shampoo",
+           "Heating"
+          ]
+        }
+    ],
+    "accessability":{
+      "features":[{
+        "category":"Guest entrance and parking",
+        "list":[
+          "Lit path to the guest entrance",
+          "The pavement or pathway to the guest entrance has lighting that makes nighttime navigation easier."
+        ]
+       }
+      ]
+    },
+    "price":{
+      "day":1635.0,
+      "night":1635.0,
+      "discount":{
+        "daily":0.0,
+        "weekly":0
+      },
+      "service":0.0,
+      "taxes":0.0
+    },
+    "thingstoknow":{
+        "houserules":[
+            "Check-in: 10:00 am - 5:00 pm",
+            "Check out: 9:00 am",
+            "No pets",
+            "Smoking is allowed"
+        ],
+        "healthandsafety":[
+            "Committed to Airbnb's enhanced cleaning process.",
+            "Airbnb's social distancing and other COVID-19-related guidelines apply",
+            "No carbon monoxide alarm",
+            "No smoke alarm",
+            "Security Deposit – if you damage the home, you may be charged up to ₹7500"
+        ],
+        "cancellationpolicy":"Non-refundable: Cancel before check-in and get back only the cleaning fee, if you've paid one."
+    }
+  }
+  
