@@ -15,13 +15,13 @@ mongoose.connect(url,{
     //console.log(con.connections);
     console.log('Connetion successful');
 }).catch(err => {
-    console.log(err);
+    //throw err;
 });
 
 /******* resevervation apis */
 
 /*  Start - Schema and Model */
-const resverationsDB = mongoose.connection.useDb('reservations');
+const reservationsDB = mongoose.connection.useDb('reservations');
 const tourSchema = mongoose.Schema({
     name:{
         type:String,
@@ -38,7 +38,7 @@ const tourSchema = mongoose.Schema({
     }
 });
 
-const Tour = resverationsDB.model('Tour',tourSchema);
+const Tour = reservationsDB.model('Tour',tourSchema);
 
 /*** End -  Schema and Model */
 
@@ -47,7 +47,7 @@ const hotelSchema = mongoose.Schema({
     "id":String
 });
 
-const Hotel = resverationsDB.model('Hotel',hotelSchema);
+const Hotel = reservationsDB.model('Hotel',hotelSchema);
 
 app.get('/api/v1/hotels', async (req,res)=>{
     try {
@@ -120,7 +120,7 @@ const customerSchema = mongoose.Schema({
     "id":String
 });
 
-const Customer = resverationsDB.model('Customer',customerSchema,'customers');
+const Customer = reservationsDB.model('Customer',customerSchema,'customers');
 
 app.get('/api/v1/users',async (req,res)=>{
     try {
@@ -134,7 +134,7 @@ app.get('/api/v1/users',async (req,res)=>{
         });
       } catch(err){
          console.log(err);
-        }
+    }
 });
 
 app.post('/api/v1/users',async (req,res)=>{
@@ -144,26 +144,138 @@ app.post('/api/v1/users',async (req,res)=>{
 
 /** reviews api's */
 
-app.get('/api/v1/reviews',(req,res)=>{
+const reviewSchema = mongoose.Schema({
+    "id":String
+});
 
-    mongoose.connect(url,{
-        useNewUrlParser:true,
-        useUnifiedTopology: true 
-        // useCreateIndex:true,
-        // useFindAndModfiy:false
-    }).then(con => {
-        console.log(con.connections);
-        console.log('Connetion successful');
-    }).catch(err => {
-        console.log(err);
-    });
+const Review = reservationsDB.model('Review',reviewSchema,'reviews');
 
+app.get('/api/v1/reviews',async (req,res)=>{
 
+    try {
+        const reviews = await Review.find();
+        console.log(reviews);
+        //console.log(tours);
+        res.status(200).json({
+             "status":"success",
+            //  "length":tours.length,
+             "data":reviews
+        });
+      } catch(err){
+         console.log(err);
+    }
 });
 
 app.post('/api/v1/reviews',(req,res)=>{
+    
 
 });
+
+app.get('/',(req,res)=>{
+    //res.status(200).send("Hello from server side");
+    res.status(200).json({
+        "message":"Hello from server side",
+        "app":"resverations"
+    });
+});
+
+/** Hotel api's */
+
+const flightSchema = mongoose.Schema({
+    "id":String
+});
+
+const Flight = reservationsDB.model('Flight',flightSchema,'flights');
+
+app.get('/api/v1/flights',async (req,res,next)=>{
+    console.log("GET -- /api/v1/flights -- received");
+    try {
+        const flights = await Flight.find({},(err,flights)=>{
+            if(err){
+                // throw err;
+                //console.log(err);
+                res.status(200).json({
+                    "status":"failure",
+                    "data":[{
+
+                    }]
+                });
+            }
+            else {
+                console.log('else path');
+                //console.log(flights);
+                //console.log(tours);
+                res.status(200).json({
+                    "status":"success",
+                    "length":flights.length,
+                    "data":flights
+                });
+            }
+        });
+      } catch(err){
+            //console.log(err);
+            // res.status(200).json({
+            //     "status":"failure",
+            //     "data":[]
+            //  });
+    }
+    console.log("GET -- /api/v1/flights -- sent");
+});
+
+app.post('/api/v1/flights',(req,res)=>{
+    
+
+});
+
+/** Location api's */
+
+const locationSchema = mongoose.Schema({
+    "id":String
+});
+
+const Location = reservationsDB.model('Location',locationSchema,'locations');
+
+app.get('/api/v1/locations',async (req,res,next)=>{
+    console.log("GET -- /api/v1/locations -- received");
+    try {
+        const locations = await Location.find({},(err,locations)=>{
+            if(err){
+                // throw err;
+                //console.log(err);
+                res.status(200).json({
+                    "status":"failure",
+                    "data":[{
+
+                    }]
+                });
+            }
+            else {
+                console.log('else path');
+                //console.log(flights);
+                //console.log(tours);
+                res.status(200).json({
+                    "status":"success",
+                    "length":locations.length,
+                    "data":locations
+                });
+            }
+        });
+      } catch(err){
+            //console.log(err);
+            // res.status(200).json({
+            //     "status":"failure",
+            //     "data":[]
+            //  });
+    }
+    console.log("GET -- /api/v1/locations -- sent");
+});
+
+app.post('/api/v1/locations',(req,res)=>{
+    
+
+});
+
+/** Default URL */
 
 app.get('/',(req,res)=>{
     //res.status(200).send("Hello from server side");

@@ -1,0 +1,63 @@
+{
+    "from":"New Delhi",
+    "to":"Bengaluru",
+    "flights":[
+        {
+            "carrier":"Go First",
+            "date":"2021-01-13",
+            "flightno":"GOG8119",
+            "discountnote":"Use code MMTSUPER and get FLAT Rs. 310 instant discount on this flight",
+            "transits":[
+                {
+                    "takeofftime":"18:40",
+                    "landingtime":"21:25",
+                    "takeoffterminal":"Terminal 2",
+                    "landingterminal":"Terminal 1",
+                    "traveltime":"02:45",
+                    "baggagetype":"ADULT",
+                    "checkin":"15",
+                    "cabin":"7",
+                    "fare":{
+                        "base":6575.0,
+                        "sur":849
+                    },
+                    "cancellation":{
+                        "policies":[
+                            {
+                                "policy":"0 hours to 2 hours*",
+                                "description":"ADULT : Non Refundable"
+                            },
+                            {
+                                "policy":"2 hours to 3 days*",
+                                "description":"ADULT : ₹ 3,500 + ₹ 300"
+                            },
+                            {   "policy":"3 days to 365 days*",
+                                "description":"ADULT : ₹ 3,000 + ₹ 300"
+                            }
+                        ],
+                        "note":"*Important: The airline fee is indicative. MakeMyTrip does not guarantee the accuracy of this information. All fees mentioned are per passenger."
+                    },
+                    "datechange":{
+                        "policies":[
+                            {
+                                "policy":"0 hours to 2 hours*",
+                                "description":"ADULT : Non Refundable"
+                            },
+                            {
+                                "policy":"2 hours to 3 days*",
+                                "description":"ADULT : ₹ 3,500 + ₹ 300"
+                            },
+                            {   "policy":"3 days to 365 days*",
+                                "description":"ADULT : ₹ 3,000 + ₹ 300"
+                            }
+                        ],
+                        "note":"*Important: The airline fee is indicative. MakeMyTrip does not guarantee the accuracy of this information. All fees mentioned are per passenger. Date change charges are applicable only on selecting the same airline on a new date. The difference in fares between the old and the new booking will also be payable by the user"
+                    }    
+                }
+            ]
+
+        }
+        
+    ]
+
+}
